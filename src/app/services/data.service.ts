@@ -15,8 +15,7 @@ export interface Location {
 export class DataService {
   private users: AppUser[] = [
     { name: 'Pragadees', email: 'pragadees@sterna.com' },
-    { name: 'Mohan', email: 'mohan@sterna.com' },
-    { name: 'Aishwarya', email: 'aishwarya@sterna.com' },
+    { name: 'Mohan', email: 'mohan@sterna.com' }
   ];
 
   private locations: Location[] = [
