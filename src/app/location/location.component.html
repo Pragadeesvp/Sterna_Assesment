@@ -15,7 +15,7 @@
     <tbody>
       <tr *ngFor="let loc of locations; let i = index">
         <td>{{ i + 1 }}</td>
-        <td>{{ loc.name }}</td>
+        <td><span class="area-pin">📍</span>{{ loc.name }}</td>
         <td>{{ loc.city }}</td>
       </tr>
     </tbody>

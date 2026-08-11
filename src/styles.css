@@ -47,6 +47,7 @@ input {
 input:focus {
   outline: none;
   border-color: #2f8fe4;
+  box-shadow: 0 0 0 3px rgba(47, 143, 228, 0.15);
 }
 
 table {
@@ -70,6 +71,37 @@ th {
   letter-spacing: 0.03em;
 }
 
+tbody tr {
+  transition: background 0.12s ease;
+}
+
+tbody tr:hover {
+  background: #f9fafb;
+}
+
 tbody tr:last-child td {
   border-bottom: none;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.badge-active {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.badge-pending {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.badge-completed {
+  background: #dbeafe;
+  color: #1d4ed8;
 }

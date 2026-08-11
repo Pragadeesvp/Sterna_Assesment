@@ -29,7 +29,7 @@ export class LoginComponent {
 
     const email = this.email?.value ?? '';
     if (!this.dataService.isValidUser(email)) {
-      this.authError = 'This email is not registered. Contact your admin for access.';
+      this.authError = 'This email is not registered.';
       return;
     }
 

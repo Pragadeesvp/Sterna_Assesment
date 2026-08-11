@@ -15,6 +15,8 @@ export interface Location {
 export class DataService {
   private users: AppUser[] = [
     { name: 'Pragadees', email: 'pragadees@sterna.com' },
+    { name: 'Mohan', email: 'mohan@sterna.com' },
+    { name: 'Aishwarya', email: 'aishwarya@sterna.com' },
   ];
 
   private locations: Location[] = [
@@ -27,9 +29,9 @@ export class DataService {
 
   getDashboardItems() {
     return [
-      { id: 1, name: 'Project Alpha', status: 'Active' },
-      { id: 2, name: 'Project Beta', status: 'Pending' },
-      { id: 3, name: 'Project Gamma', status: 'Completed' }
+      { id: 1, name: 'Auto Door Locking Sysmtem', status: 'Active' },
+      { id: 2, name: 'Smart Lock', status: 'Pending' },
+      { id: 3, name: 'Smart/Biometric Lock', status: 'Completed' }
     ];
   }
 
