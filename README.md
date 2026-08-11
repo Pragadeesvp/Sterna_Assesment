@@ -33,3 +33,11 @@ To build the project run:
 ```bash
 ng build
 ```
+## Login
+
+**Email:**
+- `pragadees@sterna.com`
+- `mohan@sterna.com`
+
+**Password:** Any 6-letter password
+
