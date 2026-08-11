@@ -1,3 +1,7 @@
+<h2> Quick Preview: <br>
+  <br>🔗 <a href="https://assessmentpreview.netlify.app/">Demo Site</a></h2> 
+</div>
+
 # LoginApp
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.6.
