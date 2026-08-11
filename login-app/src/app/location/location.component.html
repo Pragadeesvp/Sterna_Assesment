@@ -1,0 +1,23 @@
+<div class="location">
+  <div class="location-header">
+    <h2>Locations</h2>
+    <p class="subtitle">Coimbatore</p>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>S.No</th>
+        <th>Area</th>
+        <th>City</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let loc of locations; let i = index">
+        <td>{{ i + 1 }}</td>
+        <td>{{ loc.name }}</td>
+        <td>{{ loc.city }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,30 @@
+:host {
+  display: block;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+.location-header {
+  margin-bottom: 1.5rem;
+}
+
+.location-header h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.subtitle {
+  margin: 0.25rem 0 0;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+table {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+}

@@ -1,1 +1,75 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 0.55rem 1.1rem;
+  background: #2f8fe4;
+  color: #fff;
+  transition: opacity 0.15s ease;
+}
+
+button:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+button.secondary {
+  background: transparent;
+  color: #2f8fe4;
+  border-color: #d0d5dd;
+}
+
+input {
+  font: inherit;
+  padding: 0.55rem 0.7rem;
+  width: 100%;
+  border: 1px solid #d0d5dd;
+  border-radius: 6px;
+  background: #fff;
+  color: #111827;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2f8fe4;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.65rem 0.75rem;
+  border-bottom: 1px solid #edf0f3;
+}
+
+th {
+  font-weight: 600;
+  color: #6b7280;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}

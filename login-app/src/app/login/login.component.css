@@ -1,0 +1,58 @@
+:host {
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 360px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.login-container h2 {
+  margin: 0 0 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.login-container small {
+  display: block;
+  margin-top: 0.3rem;
+  color: #dc2626;
+  font-size: 0.72rem;
+}
+
+.auth-error {
+  font-size: 0.8rem;
+  color: #b91c1c;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 6px;
+  padding: 0.5rem 0.7rem;
+}
+
+.login-container button[type='submit'] {
+  width: 100%;
+  margin-top: 0.25rem;
+}

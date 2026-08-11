@@ -1,0 +1,38 @@
+<div class="dashboard">
+  <div class="dashboard-header">
+    <h2>Dashboard</h2>
+    <p class="subtitle" *ngIf="currentUser">Welcome, {{ currentUser.name }}</p>
+  </div>
+
+  <div class="stats">
+    <div class="stat-card stat-blue">
+      <span class="stat-label">Total Locations</span>
+      <span class="stat-value">{{ totalLocations }}</span>
+    </div>
+    <div class="stat-card stat-green">
+      <span class="stat-label">Total Users</span>
+      <span class="stat-value">{{ totalUsers }}</span>
+    </div>
+    <div class="stat-card stat-pink">
+      <span class="stat-label">Total Projects</span>
+      <span class="stat-value">{{ items.length }}</span>
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>S.No</th>
+        <th>Name</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of items; let i = index">
+        <td>{{ i + 1 }}</td>
+        <td>{{ item.name }}</td>
+        <td>{{ item.status }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
