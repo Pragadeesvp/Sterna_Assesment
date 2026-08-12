@@ -1,5 +1,13 @@
-## Quick Preview
+# Quick Preview
   <a href="https://assessmentpreview.netlify.app/">Demo Site</a> (Desktop)
+ 
+## Login
+
+**Email:**
+- `pragadees@sterna.com`
+- `mohan@sterna.com`
+
+**Password:** Any 6-letter password
 
 # LoginApp
 
@@ -36,11 +44,5 @@ To build the project run:
 ```bash
 ng build
 ```
-## Login
 
-**Email:**
-- `pragadees@sterna.com`
-- `mohan@sterna.com`
-
-**Password:** Any 6-letter password
 
