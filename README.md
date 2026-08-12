@@ -1,6 +1,5 @@
-<h2> Quick Preview: <br>
-  <br>🔗 <a href="https://assessmentpreview.netlify.app/">Demo Site</a></h2> 
-</div>
+## Quick Preview
+  <a href="https://assessmentpreview.netlify.app/">Demo Site</a> (Desktop)
 
 # LoginApp
 
