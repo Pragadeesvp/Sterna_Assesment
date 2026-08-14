@@ -45,4 +45,29 @@ To build the project run:
 ng build
 ```
 
+## Application Architecture
 
+```mermaid
+flowchart TD
+    A["Browser"] --> B["index.html"]
+    B --> C["main.ts"]
+    C --> D["AppModule<br/>app.module.ts"]
+
+    D --> E["AppComponent<br/>app.component.ts"]
+    D --> F["AppRoutingModule<br/>app-routing.module.ts"]
+
+    F --> G["/login"]
+    F --> H["Protected Routes"]
+
+    G --> I["LoginComponent<br/>login.component.ts"]
+
+    H --> J{"AuthGuard<br/>auth.guard.ts"}
+
+    J -->|Allowed| K["LayoutComponent<br/>layout.component.ts"]
+    J -->|Denied| G
+
+    K --> L["DashboardComponent<br/>dashboard.component.ts"]
+    K --> M["LocationComponent<br/>location.component.ts"]
+
+    L --> N["DataService"]
+    M --> N
